@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    position: relative;
+    min-height: 800px;
+}
+
+.box {
+    width: 20%;
+    min-height: 200px;
+    border: 1px solid #8DCDF8;
+    position: absolute;
+    color: white;
+    text-align: center;
+    transition: 0.5s;
+}
+.box:hover{
+    border-color: red;
+}
+
+.topleft {
+    background-color: #436FB0;
+}
+
+.topright {
+    background-color: #97D083;
+    right: 0;
+
+}
+
+.center {
+    background-color: #FFB900;
+    top: 37%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+/*    left: 40%*/
+}
+
+.bottomleft {
+    background-color: chocolate;
+    bottom: 0;
+}
+
+.bottomright {
+    background-color: darkgray;
+    bottom: 0;
+    right: 0;
+}
